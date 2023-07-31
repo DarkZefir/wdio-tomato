@@ -1,19 +1,59 @@
 {
-  "name": "wdio-tomato",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DarkZefir/wdio-tomato.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DarkZefir/wdio-tomato/issues"
-  },
-  "homepage": "https://github.com/DarkZefir/wdio-tomato#readme"
+	"name": "cheetah.wke2e",
+	"version": "1.0.0",
+	"description": "cheetah e2e automation framework",
+	"main": "./test/config/protractor.config.js",
+	"scripts": {
+		"test": "cucumber-js",
+		"test-ci": "cucumber-js --profile ci",
+		"postinstall": "mkdir report",
+		"extract": "node support/jira/index.js extract",
+		"check-features": "gherkin-lint ./feature/**/*",
+		"update": "node support/jira/index.js update",
+		"eslint": "eslint ./",
+		"update-steps": "node support/jira/index.js update-steps",
+		"clean-execution": "node support/jira/index.js clear",
+		"upload-results": "node support/jira/index.js upload",
+		"create-token": "node ./gmail/quickstart/index.js",
+		"report": "node ./support/report.js",
+		"junit-report": "node support/junitReport.js"
+	},
+	"authors": [
+		"Matsvei Murashka",
+		"Maksim Liubinskissf",
+		"Vasilisa Shokhava",
+		"Sviatlana Tumilevich",
+		"Oleksandr Halichenkoo",
+		"Volha Valasevich"
+	],
+	"dependencies": {
+		"@cucumber-e2e/memory2": "^1.0.0",
+		"@cucumber-e2e/po2": "^1.0.4",
+		"@cucumber/cucumber": "^8.0.0-rc.2",
+		"@google-cloud/local-auth": "^2.1.0",
+		"@reportportal/client-javascript": "^5.0.6",
+		"@wdio/devtools-service": "^7.16.13",
+		"axios": "^0.27.2",
+		"chai": "^4.3.4",
+		"chai-datetime": "^1.8.0",
+		"chai-sorted": "^0.2.0",
+		"cli-progress": "^3.11.2",
+		"cucumber-html-reporter": "^5.5.0",
+		"expect-webdriverio": "^3.1.4",
+		"googleapis": "^105.0.0",
+		"klaw-sync": "^6.0.0",
+		"lodash": "^4.17.21",
+		"queue-promise": "^2.2.1",
+		"webdriverio": "^7.16.13",
+		"winston": "^3.6.0",
+		"xml2js": "^0.4.23",
+		"yargs": "^17.5.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.17.8",
+		"@babel/eslint-parser": "^7.17.0",
+		"eslint": "^7.1.0",
+		"gherkin-lint": "^4.0.1",
+		"husky": "^4.2.5"
+	}
 }

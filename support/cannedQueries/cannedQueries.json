@@ -1,0 +1,390 @@
+[
+  {
+    "label": "Antitrust & Competition",
+    "children": [
+      {
+        "label": "Damages recovery for indirect purchasers",
+        "query": "(direct OR indirect) w/2 purchas* AND recover* AND damages"
+      },
+      {
+        "label": "False Advertising",
+        "query": "\"false advertising\""
+      },
+      {
+        "label": "Franchise Fees",
+        "query": "\"Franchise Fees\""
+      },
+      {
+        "label": "Gift Certificates",
+        "query": "\"Gift certificates\""
+      },
+      {
+        "label": "M&A Notification Report Form",
+        "query": "notification w/5 form AND (acquisition OR merger)"
+      },
+      {
+        "label": "Pre-M&A",
+        "query": "premerger OR preacquisition"
+      },
+      {
+        "label": "Prosecution For Monopolization",
+        "query": "monopol* AND fine OR (prison OR imprisonment)"
+      },
+      {
+        "label": "Restrictions On Anticompetitive Price Discrimination",
+        "query": "discriminat* w/3 price AND compet*"
+      },
+      {
+        "label": "Unfair And Deceptive Practices",
+        "query": "unfair w/50 \"deceptive practices\""
+      }
+    ]    
+  },
+  {
+    "label": "Banking & Consumer Finance",
+    "children": [
+      {
+        "label": "Blockchain",
+        "query": "blockchain"
+      },
+      {
+        "label": "Disclosure Requirements For Private Education Loans",
+        "query": "credit* OR disclos* AND \"private education loan\""
+      },
+      {
+        "label": "Minimum Capital Requirements",
+        "query": "minimum capital w/2 ratio*"
+      },
+      {
+        "label": "Virtual Currencies",
+        "query": "virtual AND currenc*"
+      }
+    ]
+  },
+  {
+    "label": "Cannabis",
+    "children": [
+      {
+        "label": "Cannabis Excise Tax",
+        "query": "cannabis AND \"excise tax\""
+      },
+      {
+        "label": "Cannabis Retail Sale",
+        "query": "cannabis AND \"retail sale\""
+      },
+      {
+        "label": "CBD (Cannabidiol)",
+        "query": "CBD"
+      },
+      {
+        "label": "Hemp-Derived Cannabinoids",
+        "query": "cannabinoid AND hemp"
+      },
+      {
+        "label": "Medical Marijuana Cultivator Requirements",
+        "query": "cannabis w/5 medical AND cultivat*"
+      },
+      {
+        "label": "THC-Derived Cannabinoids",
+        "query": "cannabinoid AND THC"
+      }
+    ]
+  },
+  {
+    "label": "Cybersecurity & Privacy",
+    "children": [
+      {
+        "label": "Breach Notification Laws",
+        "query": "cybersecurity AND notice AND breach"
+      },
+      {
+        "label": "General Cybersecurity",
+        "query": "cybersecurity OR \"cyber privacy\" OR \"cyber initiative\""
+      },
+      {
+        "label": "Insurance Data Security",
+        "query": "Insurance w/p (data security OR security program)"
+      },
+      {
+        "label": "Privacy Of Biometric Information",
+        "query": "biometric w/p (privacy OR disclosure) OR facial recognition"
+      },
+      {
+        "label": "Privacy Policy Requirements",
+        "query": "security AND privacy policy w/p (business OR agent OR agency OR licensee OR operator OR broker)"
+      },
+      {
+        "label": "Protection Of Social Security Numbers",
+        "query": "\"social security number\" w/10 (protect OR safeguard)"
+      }
+    ]
+  },
+  {
+    "label": "Energy & Environment",
+    "children": [
+      {
+        "label": "Ambient Air Quality Standard Violations",
+        "query": "\"ambient air quality standard\" AND violation"
+      },
+      {
+        "label": "Climate Change",
+        "query": "climate w/5 change OR related AND risk OR emissions"
+      },
+      {
+        "label": "Fracking Disclosure",
+        "query": "hydraulic fracturing AND disclosure"
+      },
+      {
+        "label": "Hazardous Waste Enforcement",
+        "query": "\"harzardous waste\" w/p enforcement"
+      },
+      {
+        "label": "Ozone Depletion",
+        "query": "ozone depletion"
+      },
+      {
+        "label": "Renewable Energy Tax Credits",
+        "query": "\"renewable energy\" AND \"tax credit\""
+      },
+      {
+        "label": "Solar Energy Tax Credits",
+        "query": "solar AND \"tax credit\""
+      },
+      {
+        "label": "Water Pollution Penalties",
+        "query": "water protection OR water pollution OR clean water w/p penalt*"
+      },
+      {
+        "label": "Wind Turbines",
+        "query": "\"wind turbine\""
+      }
+    ]
+  },
+  {
+    "label": "Health",
+    "children": [
+      {
+        "label": "Accountable Care Organizations",
+        "query": "\"accountable care organization\""
+      },
+      {
+        "label": "Covid Vaccine",
+        "query": "covid AND vaccin*"
+      },
+      {
+        "label": "General Telehealth Regulations",
+        "query": "telehealth w/p regulation"
+      },
+      {
+        "label": "HIPAA Breach Notification",
+        "query": "(HIPAA OR \"protected health information\") AND breach AND (notify OR notification OR notice OR report OR reporting)"
+      },
+      {
+        "label": "Medicare Or Medicaid Provider Reimbursement",
+        "query": "Medicare OR Medicaid AND \"provider reimbursement\""
+      },
+      {
+        "label": "Telehealth For Treatment Of Substance Use Disorder",
+        "query": "telehealth AND \"substance abuse\" OR \"substance use\""
+      }
+    ]
+  },
+  {
+    "label": "Intellectual Property",
+    "children": [
+      {
+        "label": "Damages For Copyright Infringement",
+        "query": "\"copyright infringment\" AND damage OR remed*"
+      },
+      {
+        "label": "Injunctive Relief For Trade Secret Misappropriation",
+        "query": "\"trade secret\" AND misappropriat* AND injunct*"
+      },
+      {
+        "label": "Remedies For Patent Infringement",
+        "query": "patent infring* AND damage OR remed*"
+      },
+      {
+        "label": "Seizure Or Destruction Of Counterfeit Goods",
+        "query": "counterfeit* w/p goods OR products w/p seizure OR destruction"
+      },
+      {
+        "label": "Unauthorized Use Of A Name",
+        "query": "\"unauthorized use\" AND name OR likeness"
+      },
+      {
+        "label": "Unauthorized Use Of Images And Photographs",
+        "query": "image OR photograph AND unauthorized w/p use OR fixat* OR distrib* OR perform*"
+      },
+      {
+        "label": "Unauthorized Use Of Sound Recordings",
+        "query": "Sound w/3 recording AND unauthorized w/p use OR fixat* OR distrib* OR perform*"
+      }
+    ]
+  },
+  {
+    "label": "Labor & Employment",
+    "children": [
+      {
+        "label": "Applicant Salary Disclosure Requirements",
+        "query": "applicant AND disclos* w/5 salary OR compensation OR wage"
+      },
+      {
+        "label": "Employee Leave For Domestic Violence",
+        "query": "employ* AND leave w/30 \"domestic violence\""
+      },
+      {
+        "label": "Employee Whistleblower Protection",
+        "query": "whistleblower AND employee AND protection"
+      },
+      {
+        "label": "Employment Discrimination Based On Appearance",
+        "query": "employ* AND (dress OR groom* OR attire OR hair*) discriminat*"
+      },
+      {
+        "label": "Employment Related To Covid",
+        "query": "covid AND employment"
+      },
+      {
+        "label": "Independent Contractor Classification",
+        "query": "\"independent contractor*\" w/15 classification"
+      },
+      {
+        "label": "Mandatory Arbitration",
+        "query": "employ* AND mandatory w/15 arbitration"
+      },
+      {
+        "label": "Noncompete Agreements",
+        "query": "employ* AND noncompete w/5 agreement"
+      },
+      {
+        "label": "Paid Time Off For Family And Medical Leave",
+        "query": "employ* AND paid AND leave AND time w/5 family AND medical"
+      },
+      {
+        "label": "Pregnancy Accommodation Requirements",
+        "query": "employ* AND pregnan* w/10 (accommodation OR obligation OR requirement)"
+      },
+      {
+        "label": "Sexual Harassment Prevention",
+        "query": "\"sexual harassment\" AND prevention"
+      },
+      {
+        "label": "Vaccine Accommodation Requirements",
+        "query": "employ* AND vaccine* AND accommodation"
+      },
+      {
+        "label": "Workers' Compensation Fraud Investigation",
+        "query": "\"worker compensation\" AND fraud AND investigation"
+      }
+    ]
+  },
+  {
+    "label": "Securities - Corporate Governance",
+    "children": [
+      {
+        "label": "Accredited Investor Exemption",
+        "query": "accredited investor AND exempt*"
+      },
+      {
+        "label": "Beneficial Ownership Reporting",
+        "query": "beneficial ownership AND \"Schedule 13D\" OR \"Schedule 13G\""
+      },
+      {
+        "label": "Board Diversity & Inclusion",
+        "query": "corporat* AND board OR executive AND diversity OR inclusion AND gender OR racial OR lgbtq OR \"underrepresented communities\""
+      },
+      {
+        "label": "Corporate Governance Annual Disclosure",
+        "query": "\"corporate governance annual disclosure\""
+      },
+      {
+        "label": "Private Fund Adviser Exemption",
+        "query": "\"private fund\" OR \"family office\" AND adviser"
+      },
+      {
+        "label": "Stock Option Compensation",
+        "query": "\"stock option\" AND equity OR compensation AND exempt*"
+      }
+    ]
+  },
+  {
+    "label": "Tax",
+    "children": [
+      {
+        "label": "Business Deduction For Losses Due To Fraud Or Embezzlement",
+        "query": "business and deduction w/20 (fraud OR theft OR embezzl*)"
+      },
+      {
+        "label": "Deducting Net Operating Losses From Real Estate",
+        "query": "\"net operating loss\" AND \"real estate\""
+      },
+      {
+        "label": "Deduction Of Organizational Start-Up Expenses",
+        "query": "deduction AND \"start up\" AND expense AND (business OR organization)"
+      },
+      {
+        "label": "Filing Requirements For Estimated Taxes",
+        "query": "\"estimated tax\" w/10 filing AND requir*"
+      },
+      {
+        "label": "Income Tax Evasion",
+        "query": "evad* OR avoid w/p income tax"
+      },
+      {
+        "label": "Liquor Excise Tax Rates",
+        "query": "liquor AND \"excise tax\" AND rate"
+      },
+      {
+        "label": "Residency Time Requirement For Dependency Exemption",
+        "query": "dependen* w/3 exemption AND (residen* OR abode) AND months"
+      }
+    ]
+  },
+  {
+    "label": "Torts",
+    "children": [
+      {
+        "label": "Libel And Slander",
+        "query": "libel AND slander"
+      },
+      {
+        "label": "Medical Malpractice Claims",
+        "query": "\"medical malpractice\" w/p claim OR action"
+      },
+      {
+        "label": "Product Liability Actions",
+        "query": "\"product liability\" AND action OR claim"
+      },
+      {
+        "label": "Wrongful Death And Survival Actions Damages",
+        "query": "\"wrongful death\" OR \"survival action\" AND damage"
+      }
+    ]
+  },
+  {
+    "label": "Unmanned Vehicles & Aircraft",
+    "children": [
+      {
+        "label": "Autonomous Vehicle Insurance Requirements",
+        "query": "\"autonomous vehicle\" OR \"self driving vehicle\" AND insurance"
+      },
+      {
+        "label": "Drones, Generally",
+        "query": "drone"
+      },
+      {
+        "label": "Operation Of Autonomous Vehicles",
+        "query": "\"autonomous vehicle\" OR \"self driving vehicle\" AND operation*"
+      },
+      {
+        "label": "Operation of Unmanned Aerial Vehicles (UAVs)",
+        "query": "\"unmanned aerial vehicle\" AND operation"
+      },
+      {
+        "label": "Property Restrictions for Unmanned Aerial Vehicles (UAVs)",
+        "query": "\"unmanned aerial vehicle\" AND property"
+      }
+    ]
+  }
+]

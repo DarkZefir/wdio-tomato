@@ -1,0 +1,90 @@
+const { $, $$ } = require(`@cucumber-e2e/po2`);
+const ContentBox = require(`./home/ContentBox`);
+const CitationLookupBox = require(`./home/CitationLookupBox`);
+const PracticeAreasBox = require(`./home/PracticeAreasBox`);
+const WhitePapersAndSpecialReportsBox = require(`./home/WhitePapersAndSpecialReportsBox`);
+const VitallawResourcesBox = require(`./home/VitallawResourcesBox`);
+const NewSiteBox = require(`./home/NewSiteBox`);
+const UkraineCrisisBox = require(`./home/UkraineCrisisBox`);
+const FavoritesBox = require(`./home/FavoritesBox`);
+const HistoryBox = require(`./home/HistoryBox`);
+const NeedHelpBox = require(`./home/NeedHelpBox`);
+const NewsHeadlinesBox = require(`./home/NewsHeadlinesBox`);
+const LawFirmBlogsBox = require(`./home/LawFirmBlogsBox`);
+const AgencyRulesBox = require(`./home/AgencyRulesBox`);
+const ExternalResourcesBox = require(`./home/ExternalResourcesBox`);
+const TwitterBox = require(`./home/TwitterBox`);
+const PracticeToolsBox = require(`./home/PracticeToolsBox`);
+const RBsourceFilings = require(`./home/RBsourceFilings`);
+const SampleFormsBox = require(`./home/SampleFormsBox`);
+const UsefulLinksBox = require(`./home/UsefulLinksBox`);
+const CovidUsefulLinksBox = require(`./home/CovidUsefulLinksBox`);
+const SearchCaseDatabasesBox = require(`./home/SearchCaseDatabasesBox`);
+const CitationTemplateSearchBox = require(`./home/CitationTemplateSearchBox`);
+const QuickReferenceByCountryBox = require(`./home/QuickReferenceByCountryBox`);
+const PracticalContentFavoritesBox = require(`./home/PracticalContentFavoritesBox`);
+const EssentialsBox = require(`./home/EssentialsBox`);
+const TreatiesBox = require(`./home/TreatiesBox`);
+const SearchWithinTagBox = require(`./home/SearchWithinTagBox`);
+const SubmitAQuestionToTAGBox = require(`./home/SubmitAQuestionToTagBox`);
+const BrowseTopicsBox = require(`./home/BrowseTopicsBox`);
+const LawgoodBox = require(`./home/LawgoodBox`);
+const VlccFindACaseBox = require(`./home/VLCC/VlccFindACaseBox`);
+const VlccPrimaryLawBox = require(`./home/VLCC/VlccPrimaryLawBox`);
+const VlccToolsBox = require(`./home/VLCC/VlccToolsBox`);
+const VlccQuickAnswersBox = require(`./home/VLCC/VlccQuickAnswersBox`);
+const PxToolsBox = require(`./home/PX/PxToolsBox`);
+const PxResourcesBox = require(`./home/PX/PxResourcesBox`);
+const PxHotTopicsBox = require(`./home/PX/PxHotTopicsBox`);
+const PxUsefulLinksBox = require(`./home/PX/PxUsefulLinksBox`);
+const PxCchLearningCenterCoursesBox = require(`./home/PX/PxCchLearningCenterCoursesBox`);
+
+class HomePage {
+	PracticeAreasBox = $(new PracticeAreasBox());
+	WhitePapersAndSpecialReportsBox = $$(new WhitePapersAndSpecialReportsBox());
+	VitallawResourcesBox = $(new VitallawResourcesBox());
+	NewSiteBox = $(new NewSiteBox());
+	UkraineCrisisBox = $(new UkraineCrisisBox());
+	FavoritesBox = $(new FavoritesBox());
+	HistoryBox = $(new HistoryBox());
+	NeedHelpBox = $(new NeedHelpBox());
+	NewsHeadlinesBox = $$(new NewsHeadlinesBox());
+	ContentBox = $(new ContentBox());
+	CitationLookupBox = $(new CitationLookupBox());
+	LawFirmBlogsBox = $(new LawFirmBlogsBox());
+	AgencyRulesBox = $(new AgencyRulesBox());
+	ExternalResourcesBox = $(new ExternalResourcesBox());
+	TwitterBox = $(new TwitterBox());
+	PracticeToolsBox = $(new PracticeToolsBox());
+	RBsourceFilings = $(new RBsourceFilings());
+	SampleFormsBox = $(new SampleFormsBox());
+	UsefulLinksBox = $(new UsefulLinksBox());
+	CovidUsefulLinksBox = $(new CovidUsefulLinksBox());
+	SearchCaseDatabasesBox = $(new SearchCaseDatabasesBox());
+	CitationTemplateSearchBox = $(new CitationTemplateSearchBox());
+	QuickReferenceByCountryBox = $(new QuickReferenceByCountryBox());
+	PracticalContentFavoritesBox = $(new PracticalContentFavoritesBox());
+	EssentialsBox = $(new EssentialsBox());
+	TreatiesBox = $(new TreatiesBox());
+	SearchWithinTagBox = $(new SearchWithinTagBox());
+	SubmitAQuestionToTAGBox = $(new SubmitAQuestionToTAGBox());
+	BrowseTopicsBox = $(new BrowseTopicsBox());
+	LawgoodBox = $(new LawgoodBox());
+	DashboardBoxesHeader = $$(`.dashboard .box .header`);
+
+	// vlcc only
+	VlccFindACaseBox = $(new VlccFindACaseBox());
+	VlccPrimaryLawBox = $(new VlccPrimaryLawBox());
+	VlccToolsBox = $(new VlccToolsBox());
+	VlccQuickAnswersBox = $(new VlccQuickAnswersBox());
+
+	// PX only
+	PxToolsBox = $(new PxToolsBox());
+	PxResourcesBox = $(new PxResourcesBox());
+	PxHotTopicsBox = $(new PxHotTopicsBox());
+	PxUsefulLinksBox = $(new PxUsefulLinksBox());
+	PxCchLearningCenterCoursesBox = $(new PxCchLearningCenterCoursesBox());
+	PxAccountantKnowledgeCenterBox = $(`div.box.knowledgeCenter`);
+}
+
+module.exports = HomePage;

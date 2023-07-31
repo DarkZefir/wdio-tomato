@@ -1,0 +1,46 @@
+{
+	"VL": {
+		"address": "vitallaw.qa@gmail.com",
+		"accessToken": {
+			"type": "authorized_user",
+			"client_id": "153789977095-0q0uofeo222p9rt9nvi20v28v8u49do8.apps.googleusercontent.com",
+			"client_secret": "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",
+			"refresh_token": "1//09Qw_jBKpWdXRCgYIARAAGAkSNwF-L9IrmZg1Lc2kDTn22KZ_yTpb_EVoFDUSx09YZ-xaJYmbxPdkYCtF82b50VGuwU8JfHcCgVA"
+		},
+		"credentials": {
+			"installed": {
+				"client_id": "153789977095-0q0uofeo222p9rt9nvi20v28v8u49do8.apps.googleusercontent.com",
+				"project_id": "vitallaw",
+				"auth_uri": "https://accounts.google.com/o/oauth2/auth",
+				"token_uri": "https://oauth2.googleapis.com/token",
+				"auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+				"client_secret": "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",
+				"redirect_uris": [
+					"http://localhost"
+				]
+			}
+		}
+	},
+	"VLCC": {
+		"address": "vitallaw1.qa@gmail.com",
+		"accessToken": {
+			"type": "authorized_user",
+			"client_id": "487972686749-vob619uq7546tg9i5igaj5ccimma9bjp.apps.googleusercontent.com",
+			"client_secret": "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",
+			"refresh_token": "1//097khG1NOgygvCgYIARAAGAkSNwF-L9IrtSrShuyJhetYpSnWKaAL9bTrc1EUYIMpaKMgK1u_FbMsCY83PHwN0joBIM81Vnejnwc"
+		},
+		"credentials": {
+			"installed": {
+				"client_id": "487972686749-vob619uq7546tg9i5igaj5ccimma9bjp.apps.googleusercontent.com",
+				"project_id": "new-vitallaw",
+				"auth_uri": "https://accounts.google.com/o/oauth2/auth",
+				"token_uri": "https://oauth2.googleapis.com/token",
+				"auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+				"client_secret": "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",
+				"redirect_uris": [
+					"http://localhost"
+				]
+			}
+		}
+	}
+}
